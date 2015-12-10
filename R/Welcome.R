@@ -18,3 +18,25 @@ welcome <- function(district = TRUE)
     print("You are doing something wrong")
   }
 }
+
+#' A test Function
+#'
+#' This function will determine if I am using github correctly
+#' @param a This is the default parameter. Defaults to TRUE.
+#' @keywords TEST_TEST
+#' @export
+#' @examples
+#' test()
+#' 
+
+test <- function(a = TRUE)
+{
+  if (a == TRUE)
+  {
+    print("You know how to update the git repository")
+  }
+  else
+  {
+    print("Something is wrong")
+  }
+}
